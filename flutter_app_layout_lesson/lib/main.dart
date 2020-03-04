@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
                 Container(
                   padding: const EdgeInsets.only(bottom: 8),
                   child: Text(
-                    'Oeshinen Lake Campground',
+                    'Charlie e Sissy',
                     style: TextStyle(
                         fontWeight: FontWeight.bold,
                         letterSpacing: 0.5,
@@ -69,12 +69,7 @@ class MyApp extends StatelessWidget {
     Widget textSection = Container(
       padding: const EdgeInsets.all(32),
       child: Text(
-        'Lake Oeschinen lies at the foot of the Blüemlisalp in the Bernese '
-            'Alps. Situated 1,578 meters above sea level, it is one of the '
-            'larger Alpine Lakes. A gondola ride from Kandersteg, followed by a '
-            'half-hour walk through pastures and pine forest, leads you to the '
-            'lake, which warms to 20 degrees Celsius in the summer. Activities '
-            'enjoyed here include rowing, and riding the summer toboggan run.',
+        'Il bassotto è una razza canina di origine tedesca caratterizzata dall\'altezza proporzionalmente inferiore alla lunghezza; proprio la sua forma così curiosa lo rende particolarmente gradito ai bambini. Si tratta di un cane da caccia e da compagnia, selezionato per seguire gli animali selvatici nel sottobosco intricato, e affrontarli anche nelle tane sotterranee. Il nome originale è Dachshund termine di derivazione tedesca e fusione delle parole Dachs ("tasso") e Hund ("cane").',
         softWrap: true,
         style: TextStyle(
             letterSpacing: 0.5,
