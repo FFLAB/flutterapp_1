@@ -77,7 +77,7 @@ class MyApp extends StatelessWidget {
         ),
       ),
     );
-
+// qui sotto comando la posizione dei widget, in base ai loro nomi
     return MaterialApp(
       title: 'Flutter layout demo',
       home: Scaffold(
