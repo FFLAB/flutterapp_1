@@ -1,4 +1,4 @@
-name: flutter_app_lezione
+name: flutter_app_layout_lesson
 description: A new Flutter application.
 
 # The following defines the version and build number for your application.
@@ -19,9 +19,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-  #google fonts
-  google_fonts: ^0.3.9
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.

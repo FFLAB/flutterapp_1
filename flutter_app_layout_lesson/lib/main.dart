@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 void main() => runApp(MyApp());
 
@@ -19,13 +18,7 @@ class MyApp extends StatelessWidget {
         // or simply save your changes to "hot reload" in a Flutter IDE).
         // Notice that the counter didn't reset back to zero; the application
         // is not restarted.
-        //cambio colore principale, fonts, colore secondario (accent)
-        textTheme: GoogleFonts.tradeWindsTextTheme(
-          Theme.of(context).textTheme,
-        ),
-        primarySwatch: Colors.red,
-        //fontFamily: "Georgia",
-        accentColor: Colors.cyan[600],
+        primarySwatch: Colors.blue,
       ),
       home: MyHomePage(title: 'Flutter Demo Home Page'),
     );
