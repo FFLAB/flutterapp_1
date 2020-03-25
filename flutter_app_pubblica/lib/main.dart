@@ -9,20 +9,18 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primaryColor: Colors.green[800],//colore primario e barra
-        canvasColor: Colors.green[400],//colore sfondo
-        textTheme: Theme.of(context).textTheme.apply(
-          bodyColor: Colors.white,
-          displayColor: Colors.white
-        ),
-      floatingActionButtonTheme: FloatingActionButtonThemeData(
-
-        foregroundColor: Colors.yellow[200],
-        backgroundColor: Colors.red
-      )
-      //  primarySwatch: Colors.blue,
-     ),
-      home: MyHomePage(title: 'Flutter Demo Page'),
+        // This is the theme of your application.
+        //
+        // Try running your application with "flutter run". You'll see the
+        // application has a blue toolbar. Then, without quitting the app, try
+        // changing the primarySwatch below to Colors.green and then invoke
+        // "hot reload" (press "r" in the console where you ran "flutter run",
+        // or simply save your changes to "hot reload" in a Flutter IDE).
+        // Notice that the counter didn't reset back to zero; the application
+        // is not restarted.
+        primarySwatch: Colors.blue,
+      ),
+      home: MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
 }
@@ -94,15 +92,11 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'Hai schissato il bottone tante volte:',
-              style: TextStyle(
-                color: Colors.yellow,
-                fontSize: 50,
-              ),
+              'You have pushed the button this many times:',
             ),
             Text(
               '$_counter',
-              style: Theme.of(context).textTheme.display4,
+              style: Theme.of(context).textTheme.display1,
             ),
           ],
         ),
@@ -110,8 +104,7 @@ class _MyHomePageState extends State<MyHomePage> {
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
         tooltip: 'Increment',
-       // child: Icon(Icons.add),
-        child: Icon(Icons.navigation),
+        child: Icon(Icons.add),
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
